@@ -1,0 +1,83 @@
+body {
+   background: #000;
+   color:#fff;
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Ubuntu', sans-serif;
+   padding-top: 1%;
+   word-wrap:break-word;
+}
+
+.logo {
+   width:150px;
+   height:150px;
+}
+
+.App {
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+}
+
+.walletInfo {
+   width:50%;
+}
+
+.conductTransaction, TransactionPool {
+   margin:10%;
+}
+
+.Block {
+   border:1px solid #fff;
+   padding:5%;
+   margin:2%;
+}
+
+.transition {
+   padding: 5%;
+}
+
+hr { border-top: 1.5px solid red; }
+
+h2 {
+   margin-top:20px;
+}
+
+
+.App-particles__container {
+   overflow: hidden;
+   position: absolute;
+   top: 50vh;
+   left: 0px;
+   bottom: 0px;
+   right: 0px;
+   z-index: 0;
+ }
+
+ .app-particles__container {
+   overflow: hidden;
+   position: absolute;
+   top: 40vh;
+   left: 0px;
+   bottom: 0px;
+   right: 0px;
+   z-index: 0;
+ }
+ .app-particles__container canvas {
+   transition: 0.9s all ease-in-out;
+   z-index: 0;
+   height: 100%;
+   width: 100%;
+ }
+
+ .App-particles__container canvas {
+   transition: 0.9s all ease-in-out;
+   z-index: 0;
+   height: 100%;
+   width: 100%;
+ }
+
+ button {
+    margin:7px;
+ }
